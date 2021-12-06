@@ -66,6 +66,7 @@
     <Compile Include="Controladores\AvionController.cs" />
     <Compile Include="Controladores\BoletoController.cs" />
     <Compile Include="Controladores\EstadoVueloController.cs" />
+    <Compile Include="Controladores\FacturaController.cs" />
     <Compile Include="Controladores\LoginController.cs" />
     <Compile Include="Controladores\PasajeroController.cs" />
     <Compile Include="Controladores\UsuarioController.cs" />
@@ -74,12 +75,14 @@
     <Compile Include="Modelo\DAO\BoletoDAO.cs" />
     <Compile Include="Modelo\DAO\Conexion.cs" />
     <Compile Include="Modelo\DAO\EstadoVueloDAO.cs" />
+    <Compile Include="Modelo\DAO\FacturaDAO.cs" />
     <Compile Include="Modelo\DAO\PasajeroDAO.cs" />
     <Compile Include="Modelo\DAO\UsuarioDAO.cs" />
     <Compile Include="Modelo\DAO\VueloDAO.cs" />
     <Compile Include="Modelo\Entidades\Avion.cs" />
     <Compile Include="Modelo\Entidades\Boleto.cs" />
     <Compile Include="Modelo\Entidades\EstadoVuelo.cs" />
+    <Compile Include="Modelo\Entidades\Factura.cs" />
     <Compile Include="Modelo\Entidades\Pasajero.cs" />
     <Compile Include="Modelo\Entidades\Usuario.cs" />
     <Compile Include="Modelo\Entidades\Vuelo.cs" />

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 namespace AerolineaGrupo4.Controladores
 {
-  public   class VueloController
+    public class VueloController
     {
 
         VueloView vista;
@@ -190,6 +190,6 @@ namespace AerolineaGrupo4.Controladores
         }
 
 
-
     }
 }
+

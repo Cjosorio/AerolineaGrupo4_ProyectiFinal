@@ -21,6 +21,7 @@ namespace AerolineaGrupo4.Vistas
         BoletoView boleto;
         VueloView vuelo;
         AvionView avion;
+        FacturaView factura;
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
 
@@ -149,6 +150,26 @@ namespace AerolineaGrupo4.Vistas
         private void Avion_FormClosed(object sender, FormClosedEventArgs e)
         {
             avion = null;
+        }
+
+        private void toolStripButton7_Click(object sender, EventArgs e)
+        {
+            if (factura == null)
+            {
+                factura = new FacturaView();
+                factura.MdiParent = this;
+                factura.FormClosed += Factura_FormClosed;
+                factura.Show();
+            }
+            else
+            {
+                factura.Activate();
+            }
+        }
+
+        private void Factura_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            factura = null;
         }
     }
 }
